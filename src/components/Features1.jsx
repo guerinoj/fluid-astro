@@ -48,14 +48,14 @@ export const Features1 = () => {
             <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
               <div className="mb-4 py-3 pl-3 pr-2 rounded">
                 <img
-                  src="../../public/images/feature1.jpg"
+                  src="/images/feature1.jpg"
                   alt="f1"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded ">
                 <img
-                  src="../../public/images/feature2.jpg"
+                  src="/images/feature2.jpg"
                   alt="f2"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
@@ -64,14 +64,14 @@ export const Features1 = () => {
             <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
               <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
                 <img
-                  src="../../public/images/feature3.jpg"
+                  src="/images/feature3.jpg"
                   alt="f3"
                   className="rounded-xl  custom-border-gray"
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded-lg ">
                 <img
-                  src="../../public/images/feature4.jpg"
+                  src="/images/feature4.jpg"
                   alt="f4"
                   className="rounded-xl  custom-border-gray"
                 />
