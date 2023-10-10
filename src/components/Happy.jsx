@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import happy_customers from "../assets/images/happy_customers.png";
+const happy_customers = "../../public/images/happy_customers.png";
 
 export const Happy = () => {
   return (
