@@ -1,0 +1,95 @@
+/* Typography */
+
+.custom-block-title {
+  @apply text-primary-900 text-3xl font-bold tracking-normal;
+}
+.custom-block-big-title {
+  @apply text-primary-900 text-4xl xl:text-5xl font-bold tracking-normal;
+}
+.custom-block-subtitle {
+  @apply text-xs text-customSecondary  tracking-wider font-bold uppercase;
+}
+.custom-content-title {
+  @apply text-white text-lg font-bold tracking-normal;
+}
+.custom-content-text-white {
+  @apply text-white text-base leading-relaxed;
+}
+.custom-content-text-gray {
+  @apply text-primary-800 text-base;
+}
+
+/* Backgrounds */
+
+.custom-bg-dark1 {
+  @apply bg-customYellowBg  fill-customYellowBg;
+}
+.custom-bg-dark2 {
+  @apply bg-customDarkBg2  fill-customDarkBg2;
+}
+.custom-bg-dark3 {
+  @apply bg-customDarkBg3  fill-customDarkBg3;
+}
+body,
+html {
+  @apply bg-customYellowBg ;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Borders */
+
+.custom-border-gray {
+  @apply border border-solid border-primary-600;
+}
+.custom-border-gray-darker {
+  @apply border border-solid border-primary-700;
+}
+
+/* Buttons */
+
+.custom-button-colored {
+  @apply rounded-lg font-bold bg-customPrimary text-white flex justify-center items-center hover:bg-[#7274f3] cursor-pointer transition;
+}
+
+/* Navbar */
+
+.navbar-link {
+  @apply text-primary-600 lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2;
+}
+
+.mobile-button:hover div{
+  @apply bg-primary-100;
+}
+
+/* Preventing FOUC */
+@font-face {
+  font-display: var(--fontsource-Inter-font-display, optional);
+}
+
+.bg-custom-gradient{
+  background: linear-gradient(338deg, #4C4DB8 0.24%, rgba(164, 129, 224, 0.50) 100%);
+}
+
+.btn-gradient {
+  background: linear-gradient(272.68deg, #6563d9 6.65%, #8887e2 87.21%);
+  box-shadow: 0px 4px 27px 1px #4239af;
+}
+
+.neumorphism{
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #e2ddff, -20px -20px 60px #ffffff
+}
+
+.shadow-yellow{
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #fff4d5, -20px -20px 60px #ffffff
+}
+
+strong{
+  @apply text-secondary-300;
+}
+
+h1, h2,h3, h4, h5{
+  font-family: 'Kufam', sans-serif;
+}
