@@ -7,24 +7,24 @@ const testimonial3 = "/images/testimonial3.png";
 
 const testimonialsData = [
   {
-    customerName: "Jonathan Sardo",
-    customerTitle: "Fondateur de Uccello Labs",
+    customerName: "Jonathan Guerino",
+    customerTitle: "Fondateur de Fluid CRM",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Qui aime les tableurs ? Qui souhaite perdre son temps en configuration d'une usine à gaz ? Personne. C'est ce que je me suis dit en créant Fluid CRM : Comment mettre l'utilisateur au centre de l'application tout en gardant les fonctionnalités essentielles : celles qui permettent de gagner du temps au quotidien. C'est mon souhait pour les utilisateurs de Fluid CRM.",
     image: testimonial1,
   },
   {
     customerName: "JM De Lanversin",
     customerTitle: "PDG de A3R Solutions",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Nous avions essayé de nombreux CRM, comme Salseforce par exemple. Nous avons choisi Fluid CRM pour sa simplicité, il est adapté à la taille de notre équipe commerciale. Et aussi pour la réactivité de son support. ",
     image: testimonial2,
   },
   {
-    customerName: "Damien Rambaud",
-    customerTitle: "Progicielcharles",
+    customerName: "Jonathan Sardo",
+    customerTitle: "Fondateur de Uccello Labs",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "En tant qu'entrepreneur, j'ai besoin d'un outil simple d'utilisation et qui me permet de bien suivre ma prospection. Fluid CRM est facile à prendre en main et convient parfaitement à mes besoins. ",
     image: testimonial3,
   },
 ];
@@ -46,7 +46,7 @@ export const Testimonials = () => (
           Ils gagnent chaque jour du temps avec Fluid CRM
         </h2>
 
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center ">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
           {testimonialsData.map((testimonial, index) => (
             <div
               className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 neumorphism flex flex-col px-6 py-4"
@@ -55,13 +55,13 @@ export const Testimonials = () => (
               <div className="flex mb-2">
                 <QuoteIcon />
               </div>
-              <div className="text-primary-900">
+              <div className="text-primary-900 h-60">
                 "{testimonial.content}"
               </div>
               <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
                 <img src={testimonial.image} alt="" width="45px" />
                 <div className="flex flex-col ml-4">
-                  <div className="custom-content-text-white font-medium">
+                  <div className="text-primary-900 font-medium">
                     {testimonial.customerName}
                   </div>
                   <div className="custom-content-text-gray">

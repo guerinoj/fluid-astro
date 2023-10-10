@@ -7,7 +7,7 @@
   @apply text-primary-900 text-4xl xl:text-5xl font-bold tracking-normal;
 }
 .custom-block-subtitle {
-  @apply text-xs text-customSecondary  tracking-wider font-bold uppercase;
+  @apply text-xs text-primary-600  tracking-wider font-bold uppercase;
 }
 .custom-content-title {
   @apply text-white text-lg font-bold tracking-normal;
