@@ -69,9 +69,9 @@ export const Pricing = () => {
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="p-8 shadow-yellow text-primary-900  rounded-3xl">
-                  <h4 className="mb-2 text-xl font-bold font-heading  text-left">
+                  <h3 className="mb-2 text-xl font-bold font-heading  text-left">
                     Découverte
-                  </h4>
+                  </h3>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-left mt-4 mr-2">
                       0€

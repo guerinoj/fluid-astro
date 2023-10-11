@@ -50,7 +50,7 @@ export const Hero = () => {
               className="border-2 rounded-full flex items-center border-b-purple-100/30 border-r-purple-100/20 border-t-purple-100/60 border-l-purple-100/50 btn-gradient hover:bg-indigo-700 hover:border-purple-100/80 hover:drop-shadow-2xl focus-within:bg-indigo-700 focus-within:border-indigo-700 relative w-full h-16 px-8 font-bold text-white duration-200 "
             >
               Je teste gratuitement
-              <img class="absolute -right-4 -top-10 h-14" src="/images/smiley.png" />
+              <img class="absolute -right-4 -top-10 h-14" src="/images/smiley.png" alt="Inscription" />
             </a>
             
           </div>
