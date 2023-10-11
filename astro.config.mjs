@@ -6,5 +6,6 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), compress(), react()]
+  integrations: [tailwind(), compress(), react()],
+  site: 'https://www.fluid-crm.fr',
 });
