@@ -19,7 +19,7 @@ export const Zapier = () => {
 
             </div>
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 lg:w-3/5 xl:w-2/5 text-left">
-              <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title text-primary-50">
+              <h2 className="mt-6 mb-8 text-4xl lg:text-5xl font-bold tracking-normal text-primary-50">
                 Intégrez vos <strong>outils préférés</strong> avec Zapier
               </h2>
               <p className=" text-primary-50 leading-loose pb-5">
