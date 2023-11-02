@@ -70,7 +70,7 @@ export const Navbar = () => {
           exit={{ opacity: 0 }}
         >
           <div className="grow basis-0 justify-end hidden lg:flex">
-            <a href="/inscription"
+            <a href="https://app.fluid-crm.fr/inscription"
               className="flex justify-center items-center rounded-full  shadow bg-primary-500 hover:bg-primary-600 hover:drop-shadow-xl focus-within:bg-primary-700 focus-within:border-primary-700  h-10 px-8  text-white duration-200 "
             >
               Je teste gratuitement
