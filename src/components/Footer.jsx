@@ -26,7 +26,7 @@ export const Footer = () => {
                 <LinkedIn />
               </a>
 
-              <a href='https://www.youtube.fr' target="_blank" className="text-primary-500 hover:text-primary-600">
+              <a href='https://youtube.com/@FluidCRM?si=uI-1A39Td2i7QUYO' target="_blank" className="text-primary-500 hover:text-primary-600">
                 <span className="sr-only">Youtube</span>
                 <Youtube />
               </a>
